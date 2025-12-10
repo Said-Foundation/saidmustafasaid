@@ -1,0 +1,82 @@
+{
+	"short_name": "Said Mustafa Said",
+	"name": "Said Mustafa Said - AI/ML Specialist | DevOps Engineer",
+	"description": "Portfolio of Said Mustafa Said, AI/ML Specialist and DevOps Engineer with expertise in AI model deployment and cloud automation.",
+	"icons": [
+		{
+			"src": "/photos/img/64x63_favicon.png",
+			"sizes": "64x64",
+			"type": "image/png"
+		},
+		{
+			"src": "/photos/img/192x192_favicon.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/photos/img/512x512_favicon.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#000000",
+	"background_color": "#000000",
+	"orientation": "portrait",
+	"categories": ["portfolio", "developer", "ai", "devops"],
+	"screenshots": [
+		{
+			"src": "/photos/img/screenshot1.png",
+			"sizes": "1280x720",
+			"type": "image/png"
+		}
+	],
+	"shortcuts": [
+		{
+			"name": "Home",
+			"short_name": "Home",
+			"description": "Go to the Home section",
+			"url": "#home",
+			"icons": [
+				{ "src": "/photos/img/192x192_favicon.png", "sizes": "192x192" }
+			]
+		},
+		{
+			"name": "Certificates",
+			"short_name": "Certificates",
+			"description": "Go to the Certificates section",
+			"url": "#certificates",
+			"icons": [
+				{ "src": "/photos/img/192x192_favicon.png", "sizes": "192x192" }
+			]
+		},
+		{
+			"name": "About",
+			"short_name": "About",
+			"description": "Go to the About section",
+			"url": "#about",
+			"icons": [
+				{ "src": "/photos/img/192x192_favicon.png", "sizes": "192x192" }
+			]
+		},
+		{
+			"name": "Projects",
+			"short_name": "Projects",
+			"description": "Go to the Projects section",
+			"url": "#projects",
+			"icons": [
+				{ "src": "/photos/img/192x192_favicon.png", "sizes": "192x192" }
+			]
+		},
+		{
+			"name": "Contact",
+			"short_name": "Contact",
+			"description": "Go to the Contact section",
+			"url": "#contact",
+			"icons": [
+				{ "src": "/photos/img/192x192_favicon.png", "sizes": "192x192" }
+			]
+		}
+	]
+}
