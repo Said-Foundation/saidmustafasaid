@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
@@ -9,17 +11,6 @@
   --accent: #00d9ff;
   --accent-secondary: #00b8d4;
   --border: #3a4555;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-card: var(--card);
-  --color-primary: var(--primary);
-  --color-secondary: var(--secondary);
-  --color-accent: var(--accent);
-  --color-accent-secondary: var(--accent-secondary);
-  --color-border: var(--border);
-  --font-sans: 'Inter', system-ui, sans-serif;
 }
 
 *,:before,:after {
