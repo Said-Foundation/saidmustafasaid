@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://saidmustafasaid.github.io/saidmustafasaid/sitemap.xml
