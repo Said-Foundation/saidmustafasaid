@@ -28,7 +28,7 @@ const App = () => {
       ),
     },
     {
-      title: 'TargetedCV',
+      title: 'CVPathway',
       description: 'AI-powered resume builder that creates job-targeted CVs with intelligent content optimization, automated formatting, and ATS compatibility.',
       url: APP_URLS.TARGETED_CV,
       icon: (

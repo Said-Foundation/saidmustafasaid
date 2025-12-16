@@ -1,7 +1,7 @@
 export const APP_URLS = {
     HOME: import.meta.env.VITE_HOME_URL || 'https://saidmustafasaid.com',
     PORTFOLIO: import.meta.env.VITE_PORTFOLIO_URL || 'https://portfolio.saidmustafasaid.com',
-    TARGETED_CV: import.meta.env.VITE_TARGETED_CV_URL || 'https://targetedcv.saidmustafasaid.com',
+    TARGETED_CV: import.meta.env.VITE_TARGETED_CV_URL || 'https://cvpathway.com',
 }
 
 export interface NavItem {
@@ -14,5 +14,5 @@ export interface NavItem {
 export const NAV_ITEMS: NavItem[] = [
     { id: 'home', label: 'Home', type: 'internal' },
     { id: 'portfolio', label: 'Portfolio', href: APP_URLS.PORTFOLIO, type: 'external' },
-    { id: 'targeted-cv', label: 'TargetedCV', href: APP_URLS.TARGETED_CV, type: 'external' }
+    { id: 'cvpathway', label: 'CVPathway', href: APP_URLS.TARGETED_CV, type: 'external' }
 ]
